@@ -1,20 +1,25 @@
 Summary:	Python extension with new Graph, Set and Mapping types
+Summary(pl):	Rozszerzenie Pythona z typami Graph, Set i Mapping
 Name:		python-kjbuckets
 Version:	2.2 
 Release:	3
-Copyright:	distributable
+License:	distributable
 Group:		Development/Languages/Python
 Group(de):	Entwicklung/Sprachen/Python
 Group(pl):	Programowanie/Jêzyki/Python
-Source0:	kjb.tar.gz
+Source0:	http://www.pythonpros.com/arw/kjbuckets/kjb.tar.gz
 Source1:	Makefile.pre.in
 Source2:	python-kjb-Setup.in
+URL:		http://www.pythonpros.com/arw/kjbuckets/
 Icon:		linux-python-small.gif 
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	python >= 1.5
 
 %description
-Python extension with new Graph, Set and Mapping types
+Python extension with new Graph, Set and Mapping types.
+
+%description -l pl
+Rozszerzenie Pythona z nowymi typami Graph, Set i Mapping.
 
 %prep
 %setup -q -n kjb
