@@ -5,8 +5,6 @@ Version:	2.2
 Release:	3
 License:	distributable
 Group:		Development/Languages/Python
-Group(de):	Entwicklung/Sprachen/Python
-Group(pl):	Programowanie/Jêzyki/Python
 Source0:	http://www.pythonpros.com/arw/kjbuckets/kjb.tar.gz
 Source1:	Makefile.pre.in
 Source2:	python-kjb-Setup.in
