@@ -9,7 +9,7 @@ Source0: kjb.tar.gz
 Source1: Makefile.pre.in
 Source2: python-kjb-Setup.in
 Icon: linux-python-small.gif 
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires: python >= 1.5
 
 %description
