@@ -6,6 +6,7 @@ Release:	3
 License:	distributable
 Group:		Development/Languages/Python
 Source0:	http://www.pythonpros.com/arw/kjbuckets/kjb.tar.gz
+# Source0-md5:	d700e3782d5c8784dc41251f94b1d09a
 Source1:	Makefile.pre.in
 Source2:	python-kjb-Setup.in
 URL:		http://www.pythonpros.com/arw/kjbuckets/
