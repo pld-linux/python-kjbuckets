@@ -10,7 +10,6 @@ Source0:	http://www.pythonpros.com/arw/kjbuckets/kjb.tar.gz
 #Source1:	Makefile.pre.in
 #Source2:	python-kjb-Setup.in
 URL:		http://www.pythonpros.com/arw/kjbuckets/
-Icon:		linux-python-small.gif
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	python >= 1.5
 
