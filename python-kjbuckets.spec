@@ -1,5 +1,5 @@
 Summary:	Python extension with new Graph, Set and Mapping types
-Summary(pl):	Rozszerzenie Pythona z typami Graph, Set i Mapping
+Summary(pl.UTF-8):   Rozszerzenie Pythona z typami Graph, Set i Mapping
 Name:		python-kjbuckets
 Version:	2.2
 Release:	3
@@ -16,7 +16,7 @@ Requires:	python >= 1.5
 %description
 Python extension with new Graph, Set and Mapping types.
 
-%description -l pl
+%description -l pl.UTF-8
 Rozszerzenie Pythona z nowymi typami Graph, Set i Mapping.
 
 %prep
